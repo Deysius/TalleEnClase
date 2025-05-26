@@ -7,4 +7,9 @@ public partial class GridLayout : ContentPage
 		InitializeComponent();
 	}
 
+    private void IrAFlexPage_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new FlexLayout());
+
+    }
 }

@@ -3,10 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TalleEnClase.Views.GridLayout"
              Title="GridLayout">
-    <VerticalStackLayout>
+    <StackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Josue Ayala"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            HorizontalOptions="Center"
+            FontSize="Header"/>
+        <Label 
+            Text="Josue Ayala"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Body"/>
+        <Label 
+            Text="Josue Ayala"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Medium"/>
+        <Button 
+            x:Name="IrAFlexPage"
+            Text="Ir a FlexPage"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="Beige"
+            TextColor="Black"
+            Clicked="IrAFlexPage_Clicked"
+            />
+
+    </StackLayout>
 </ContentPage>
