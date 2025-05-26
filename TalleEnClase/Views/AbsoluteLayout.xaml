@@ -8,7 +8,15 @@
             Source="a609f7d1a76153f6618cd7dbbbb6cf5f.jpg"
                AbsoluteLayout.LayoutBounds="0.5,0"
                AbsoluteLayout.LayoutFlags="PositionProportional"/>
-        
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="20,120,20,20" Spacing="20">
+                <Label Text="El cazador" FontSize="24" FontAttributes="Bold" />
+                <Label Text="Una vez un cazador estaba yendo a un lugar al que siempre iba a cazar, pero mientras iba por la ruta, detectó una zona que parecía tener abundantes presas. El hombre estacionó su auto, bajó y comenzó a caminar por el bosque.No vio ningún animal y, de un momento a otro, apareció una neblina muy espesa que no le permitía ver bien. El cazador se sintió desorientado y empezó a tener miedo. Siguió caminando hasta que pudo distinguir una luz, se acercó a aquella luz y se dio cuenta de que era la luz de una cabaña.Cuando entró en la cabaña, la niebla se disipó, pero el hombre saltó del susto por al ver los cuadros aterradores con caras de personas en las cuatro paredes. De pronto, lo invadió un terrible cansancio y se tiró en el sillón para dormir.Al despertar, abrió los ojos lentamente, volvió a mirar los cuadros y gritó de horror: no eran pinturas sino ventanas con personas que lo miraban." FontSize="18" />
+                <BoxView HeightRequest="600" Color="Transparent"/>
+            </StackLayout>
+        </ScrollView>
+
         <Button Text="Ir a GridLayout"
                 x:Name="IrAGrid"
                 Clicked="IrAGrid_Clicked"
